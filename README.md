@@ -88,8 +88,8 @@ If you’d like to contribute to this repository:
 Feel free to reach out to me if you have questions or suggestions:
 
 - **Email**: surath172003@gmail.com
-- **LinkedIn**: (https://www.linkedin.com/in/surath-chowdhury/)
-- **GitHub**: (https://github.com/Surath83)
+- **LinkedIn**: https://www.linkedin.com/in/surath-chowdhury/
+- **GitHub**: https://github.com/Surath83
 
 ---
 
