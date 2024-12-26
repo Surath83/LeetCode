@@ -87,9 +87,9 @@ If you’d like to contribute to this repository:
 
 Feel free to reach out to me if you have questions or suggestions:
 
-- **Email**: your-surath172003@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/surath-chowdhury/)
-- **GitHub**: [Your GitHub Profile](https://github.com/Surath83)
+- **Email**: surath172003@gmail.com
+- **LinkedIn**: (https://www.linkedin.com/in/surath-chowdhury/)
+- **GitHub**: (https://github.com/Surath83)
 
 ---
 
