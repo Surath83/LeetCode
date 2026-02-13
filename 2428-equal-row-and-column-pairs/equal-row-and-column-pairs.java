@@ -18,12 +18,6 @@ class Solution {
             }
             res += map.getOrDefault(key.toString(),0);
         }
-
-
-        for (String key : map.keySet()) {
-    System.out.println(key + " " + map.get(key));
-}
-
         return res;
     }
 }
