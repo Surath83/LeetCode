@@ -6,14 +6,13 @@ class Solution {
         Arrays.fill(dp,0);
         for(int i=1;i<n;i++){
             int jump = nums[i-1];
-            int val = dp[i-1];
             int j=i;
             if(jump>0){
                 while(jump!=0 && j<n){
                     if(dp[j]==0){
-                        dp[j]=val+1;
+                        dp[j]=dp[i-1]+1;
                     }else{
-                        dp[j] = Math.min(dp[j], val+1);
+                        dp[j] = Math.min(dp[j], dp[i-1]+1);
                     }
                     j++;
                     jump--;
