@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        if(head == null || head.next == null) return head;
+        if(head == null || head.next == null || k==0) return head;
         List<ListNode> list = new ArrayList<>();
         ListNode curr = head;
         while(curr != null){
@@ -33,28 +33,5 @@ class Solution {
         }
         temp.next = null;
         return head1;
-
-        // if(head == null || head.next == null) return head;
-        // ListNode curr = head;
-        // int len = 0;
-        // while(curr.next != null){
-        //     curr = curr.next;
-        //     len++;
-        // }
-        // ListNode end = curr;
-        // curr.next = head;
-        // while(k>0){
-        //     head = end;
-        //     int i=0;
-        //     while(i<len){
-        //         end = end.next;
-        //         i++;
-        //     }
-        //     k--;
-        //     if(k==0){
-        //         end.next = null;
-        //     }
-        // }
-        // return head;
     }
 }
